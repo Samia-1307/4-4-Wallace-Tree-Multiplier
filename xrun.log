@@ -1,0 +1,16 @@
+xrun: 25.03-s001: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
+TOOL:	xrun	25.03-s001: Started on Sep 22, 2026 at 15:49:11 EDT
+xrun
+	-Q
+	-unbuffered
+	-timescale 1ns/1ns
+	-sysv
+	-access +rw
+	design.sv
+	testbench.sv
+    testcase01 tc;
+                |
+xmvlog: *E,NOIPRT (testbench.sv,12|16): Unrecognized declaration 'tc' of unknown type, which could be because of an unsupported keyword, a spelling mistake, non-visible type, or missing instance port list '()' [SystemVerilog].
+xmvlog: *W,NOTOPL: no top-level unit found, must have recursive instances.
+xrun: *E,VLGERR: An error occurred during parsing.  Review the log file for errors with the code *E and fix those identified problems to proceed.  Exiting with code (status 1).
+TOOL:	xrun	25.03-s001: Exiting on Sep 22, 2026 at 15:49:11 EDT  (total: 00:00:00)
